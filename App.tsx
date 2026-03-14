@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, ScrollView, Image } from 'react-native';
 import { VideoView, useVideoPlayer} from 'expo-video';
 
-export default function App() {
+export default function About() {
 
   const player = useVideoPlayer ('http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4', player => {player.loop=true, player.play()})
 
